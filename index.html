@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+</style>
+<script src=""></script>
+<body>
+
+<img src="images/vuv_logo.png">
+
+<form>
+  <label for="fname">Naziv predmeta:</label>
+  <input type="text" id="NazivPredmeta" name="NazivPredmeta"><br><br>
+  <label for="lname">Godina (semestar):</label>
+  <input type="text" id="Godina" name="Godina"><br><br>
+  <label for="lname">Broj ECTS bodova:</label>
+  <input type="text" id="BrojECTS" name="BrojECTS"><br><br>
+</form>
+  <input type="submit" value="Submit" onclick="IspisTablicu()">
+
+<div class="">
+
+<table id="table">
+  <tr>
+    <th>Naziv predmeta</th>
+    <th>Godina</th>
+    <th>Broj ECTS bodova</th>
+  </tr>
+</table>
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
